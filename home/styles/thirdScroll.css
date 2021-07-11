@@ -1,0 +1,382 @@
+
+@media (max-width: 576px) {
+  .s2MainContainer{
+    width: 90vw;
+    padding: 20px 22.5px;
+  }
+  .s2IllContainer{
+    width: 285px;
+    height: 285px;
+    margin-left: 0px;
+  }
+  .redefineHeader {
+    font-size: 27px;
+    text-align: center;
+    letter-spacing: 0px;
+    word-spacing: 0px;
+    font-weight: 700;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    width: 100%;
+    margin-top: 40px;
+    min-height: 550px;
+  }
+  .redefineListPoint {
+    font-size: 16px;
+  }
+  .s2Background{
+    padding: 60px 0px;
+  }
+  .processButtonsContainer{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .viewPackagesBtn{
+    margin-right: 0px;
+  }
+  .s2brHide {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .s2MainContainer{
+    width: 90vw;
+    padding: 20px 30px;
+  }
+  .s2IllContainer{
+    width: 400px;
+    height: 400px;
+    margin-left: 0px;
+  }
+  .redefineHeader {
+    text-align: center;
+    font-size: 31px;
+    letter-spacing: 0.25px;
+    word-spacing: 1px;
+    font-weight: 900;
+  }
+  .s2brHide {
+    display: none;
+  }
+  .tScBreak {
+    display: none;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    width: 100%;
+    margin-top: 40px;
+    min-height: 500px;
+  }
+  .redefineListPoint {
+    font-size: 18px;
+  }
+  .s2Background{
+    padding: 60px 0px;
+  }
+  .viewPackagesBtn{
+    margin-right: 20px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .s2MainContainer{
+    width: 90vw;
+    padding: 20px 30px;
+  }
+  .s2IllContainer{
+    width: 400px;
+    height: 400px;
+    margin-left: 0px;
+  }
+  .redefineHeader {
+    text-align: center;
+    font-size: 38px;
+    letter-spacing: 0.25px;
+    word-spacing: 2px;
+    font-weight: 900;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    width: 100%;
+    margin-top: 40px;
+    min-height: 450px;
+  }
+  .redefineListPoint {
+    font-size: 18px;
+  }
+  .s2Background{
+    padding: 90px 0px;
+  }
+  .viewPackagesBtn{
+    margin-right: 20px;
+  }
+  .tScBreak {
+    display: none;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .s2MainContainer{
+    width: 90vw;
+    padding: 20px 30px;
+  }
+  .s2IllContainer{
+    width: 325px;
+    height: 325px;
+    margin-left: 20px;
+  }
+  .redefineHeader {
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: 0.25px;
+    word-spacing: 5px;
+    font-weight: 900;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    max-width: 60%;
+    min-height: 400px;
+  }
+  .redefineListPoint {
+    font-size: 18px;
+  }
+  .s2Background{
+    padding: 90px 0px;
+  }
+  .viewPackagesBtn{
+    margin-right: 20px;
+  }
+  .tScBreak {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1500px) {
+  .s2MainContainer{
+    width: 90vw;
+    padding: 20px 50px;
+  }
+  .s2IllContainer{
+    width: 430px;
+    height: 400px;
+    margin-left: 20px;
+  }
+  .redefineHeader {
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: 0.25px;
+    word-spacing: 5px;
+    font-weight: 900;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    max-width: 60%;
+    min-height: 400px;
+  }
+  .redefineListPoint {
+    font-size: 18px;
+  }
+  .s2Background{
+    padding: 90px 0px;
+  }
+  .viewPackagesBtn{
+    margin-right: 20px;
+  }
+  .tScBreak {
+    display: none;
+  }
+}
+
+@media (min-width: 1500px) {
+  .s2MainContainer{
+    width: 1350px;
+    padding: 20px 50px;
+  }
+  .s2IllContainer{
+    width: 430px;
+    height: 400px;
+    margin-left: 20px;
+  }
+  .redefineHeader {
+    text-align: left;
+    font-size: 48px;
+    letter-spacing: 0.25px;
+    word-spacing: 5px;
+    font-weight: 900;
+  }
+  .s2InBottomContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .redefineListContainer{
+    max-width: 60%;
+    min-height: 400px;
+  }
+  .redefineListPoint {
+    font-size: 18px;
+  }
+  .s2Background{
+    padding: 90px 0px;
+  }
+  .viewPackagesBtn{
+    margin-right: 20px;
+  }
+  .tScBreak {
+    display: none;
+  }
+}
+
+.s2Background{
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.s2MainContainer{
+  min-height: 640px;
+  margin: 0px;
+  box-sizing: border-box;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.redefineHeader{
+  font-family: "Lato", sans-serif;
+  margin-top: 10px;
+  margin-bottom: 50px;
+}
+
+.s2graphicrect {
+  padding: 0px 7.5px 5px 8.5px;
+  color: white;
+  text-decoration: underline;
+  background-color: #5685ff;
+}
+
+.redefineListContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: left;
+}
+
+.redefineListpts{
+  display: flex;
+  align-items: center;
+  padding: 0;
+}
+
+.redefineListno{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 56px;
+  margin: 0px 25px 0px 0px;
+  color: #0085ff;
+}
+
+.redefineListPoint {
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 2px 0px 0px 0px;
+}
+
+.s2IllContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 15px;
+  margin-top: -10px;
+  box-sizing: border-box;
+  padding: 0px 20px;
+  -webkit-box-shadow: 0px 10px 70px 0px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow:    0px 10px 70px 0px rgba(0, 0, 0, 0.1);
+  box-shadow:         0px 10px 70px 0px rgba(0, 0, 0, 0.1);
+}
+
+.s2Btn{
+  margin: 30px auto 10px auto;
+}
+
+.strProLinkS2 {
+  color: #0085ff;
+  margin-top: 0.2px;
+  text-decoration: none;
+}
+
+.s2IconFix {
+  font-size: 14px;
+  color: #66a0ff;
+}
+
+.processButtonAlignment{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.processButtonsContainer{
+  display: flex;
+  margin: 45px auto 15px auto;
+}
+
+.viewPackagesBtn{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 225px;
+  height: 50px;
+  background-color: #0085ff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  border-radius: 50px;
+  text-decoration: none;
+  padding-bottom: 1px;
+  box-shadow: rgb(38, 57, 77, 0.6) 0px 10px 30px -10px;
+  transition: all 0.25s ease-in;
+}
+
+.viewPackagesBtn:hover {
+  transform: translateY(-3px);
+  transition: all 0.25s ease-in;
+}
+
+.viewPackagesBtn:hover > .processArrowMod {
+  transform: translateX(4px);
+  transition: all 0.25s ease-in;
+}
+
+.processArrowMod {
+  margin: 2.5px 0px 0px 5px;
+  transition: all 0.25s ease-in;
+}

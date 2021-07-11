@@ -1,0 +1,396 @@
+@media (min-width: 360px) and (max-width: 576px) {
+  .ambiquilBanner {
+    width: 329px;
+    height: 201px;
+    background-image: url(../images/AmbiquilBanner2.svg);
+  }
+  .portBannerTitle {
+    width: 329px;
+    text-align: center;
+  }
+  .flexicredBanner {
+    width: 329px;
+    height: 201px;
+    background-image: url(../images/FlexicredBanner2.svg);
+  }
+  .euphoriorBanner {
+    width: 329px;
+    height: 201px;
+    background-image: url(../images/EuphoriorBanner2.svg);
+  }
+  .cpOurWorkSub{
+    width: 80%;
+    font-size: 14px;
+  }
+  .cpOurWork{
+    font-size: 34px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .ambiquilBanner {
+    width: 524px;
+    height: 320px;
+    background-image: url(../images/AmbiquilBanner2.svg);
+  }
+  .portBannerTitle {
+    width: 524px;
+    text-align: center;
+  }
+  .flexicredBanner {
+    width: 524px;
+    height: 320px;
+    background-image: url(../images/FlexicredBanner2.svg);
+  }
+  .euphoriorBanner {
+    width: 524px;
+    height: 320px;
+    background-image: url(../images/EuphoriorBanner2.svg);
+  }
+  .cpOurWorkSub{
+    width: 500px;
+    font-size: 19px;
+  }
+  .cpOurWork{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1200px) {
+  .ambiquilBanner {
+    width: 704px;
+    height: 256px;
+    background-image: url(../images/AmbiquilBanner.svg);
+  }
+  .portBannerTitle {
+    width: 704px;
+  }
+  .flexicredBanner {
+    width: 704px;
+    height: 256px;
+    background-image: url(../images/FlexicredBanner.svg);
+  }
+  .euphoriorBanner {
+    width: 704px;
+    height: 256px;
+    background-image: url(../images/EuphoriorBanner.svg);
+  }
+  .cpOurWorkSub{
+    width: 500px;
+    font-size: 19px;
+  }
+  .cpOurWork{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1200px) {
+  .ambiquilBanner {
+    width: 935px;
+    height: 340px;
+    background-image: url(../images/AmbiquilBanner.svg);
+  }
+  .portBannerTitle {
+    width: 935px;
+  }
+  .flexicredBanner {
+    width: 935px;
+    height: 340px;
+    background-image: url(../images/FlexicredBanner.svg);
+  }
+  .euphoriorBanner {
+    width: 935px;
+    height: 340px;
+    background-image: url(../images/EuphoriorBanner.svg);
+  }
+  .cpOurWorkSub{
+    width: 500px;
+    font-size: 19px;
+  }
+  .cpOurWork{
+    font-size: 48px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .ambiquilBanner {
+    width: 1100px;
+    height: 400px;
+    background-image: url(../images/AmbiquilBanner.svg);
+  }
+  .portBannerTitle {
+    width: 1100px;
+  }
+  .flexicredBanner {
+    width: 1100px;
+    height: 400px;
+    background-image: url(../images/FlexicredBanner.svg);
+  }
+  .euphoriorBanner {
+    width: 1100px;
+    height: 400px;
+    background-image: url(../images/EuphoriorBanner.svg);
+  }
+  .cpOurWorkSub{
+    width: 500px;
+    font-size: 19px;
+  }
+  .cpOurWork{
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 576px) {
+  .conclusionv1 {
+    width: 85%;
+    padding: 30px 0px;
+    text-align: center;
+  }
+  .conclusionPoints {
+    flex-direction: column;
+    text-align: left;
+  }
+  .concludeHeading {
+    font-size: 28px;
+    margin: 0px 20px;
+  }
+  .concludeSubHeading{
+    font-size: 15px;
+    margin: 0px 30px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .conclusionv1 {
+    width: 85%;
+    padding: 45px 30px;
+    text-align: center;
+  }
+  .conclusionPoints {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .concludeHeading {
+    font-size: 30px;
+  }
+  .concludeSubHeading{
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .conclusionv1 {
+    width: 85%;
+    padding: 45px 30px;
+    text-align: center;
+  }
+  .conclusionPoints {
+    width: 90%;
+    flex-wrap: wrap;
+  }
+  .concludeHeading {
+    font-size: 38px;
+  }
+  .concludeSubHeading{
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1400px) {
+  .conclusionv1 {
+    width: 950px;
+    padding: 45px 30px;
+    text-align: center;
+  }
+  .conclusionPoints {
+    width: 80%;
+  }
+  .concludeHeading {
+    font-size: 38px;
+  }
+  .concludeSubHeading{
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .conclusionv1 {
+    width: 1300px;
+    padding: 45px 30px;
+  }
+  .conclusionPoints {
+    width: 60%;
+  }
+  .concludeHeading {
+    font-size: 38px;
+  }
+  .concludeSubHeading{
+    font-size: 22px;
+  }
+}
+
+.mainPortContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portMainHeaderContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.cpOurWork{
+  margin: 30px 0px;
+  font-family: "Lato", sans-serif;
+  color: black;
+  text-decoration: underline;
+}
+
+.cpOurWorkSub{
+  text-align: center;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ambiquilBanner {
+  margin-top: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in;
+}
+
+.bannerHover:hover {
+  cursor: pointer;
+  transform: scale(1.01);
+  transition: all 0.3s ease-in;
+}
+
+.portBannerTitle {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 23px;
+  margin: 20px 0px 50px 0px;
+  transition: all 0.3s ease-in;
+}
+
+.bannerHover:hover + .portBannerTitle {
+  color: #0085ff;
+  transition: all 0.3s ease-in;
+}
+
+.flexicredBanner {
+  margin-top: 50px;
+  box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in;
+}
+
+.euphoriorBanner {
+  margin-top: 50px;
+  box-shadow: rgba(17, 12, 46, 0.25) 0px 48px 100px 0px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  transition: all 0.3s ease-in;
+}
+
+.loadProjects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  width: 250px;
+  height: 55px;
+  margin: 10px auto;
+  letter-spacing: 0.1px;
+  background: rgb(0,120,230);
+  background: linear-gradient(0deg, rgba(0,120,230,1) 0%, rgba(65,163,255,1) 100%);
+  border-radius: 35px;
+  box-shadow: rgb(38, 57, 77, 0.5) 0px 15px 15px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.loadProjects:hover {
+  transform: translateY(-7.5px);
+  box-shadow: rgb(38, 57, 77, 0.4) 0px 15px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.loadIcon{
+  margin-left: 7.5px;
+  font-size: 17px;
+  margin-top: 2px;
+}
+
+.conclusionv1 {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  box-sizing: border-box;
+  min-height: 370px;
+  border-radius: 50px;
+  background-color: #f5f5f5;
+  margin: 75px auto;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.concludeHeading {
+  font-family: "Lato", sans-serif;
+}
+
+.concludeSubHeading{
+  font-family: "Source Sans Pro", sans-serif;
+  margin: 35px 20px;
+}
+
+.portTalk {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: #0085ff;
+  width: 250px;
+  height: 55px;
+  margin: 5px auto;
+  letter-spacing: 0.1px;
+  background-color: white;
+  border-radius: 35px;
+  border: 2.5px solid #0085ff;
+  box-shadow: rgb(38, 57, 77, 0.25) 0px 15px 15px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.portTalk:hover {
+  transform: translateY(-7.5px);
+  box-shadow: rgb(38, 57, 77, 0.2) 0px 15px 30px -10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.fa-paper-plane {
+  margin-left: 7.5px;
+  font-size: 17px;
+  margin-top: 0.5px;
+}
+
+.conclusionPoints {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+}
+
+.fa-check{
+  color: #0085ff;
+  margin-right: 5px;
+}

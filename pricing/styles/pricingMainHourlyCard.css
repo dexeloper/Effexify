@@ -1,0 +1,578 @@
+@media (max-width: 576px) {
+  .cardAndInfoContainer{
+    flex-direction: column;
+  }
+  .hourlyButtonsContainer{
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .hourlyMainContainer{
+    width: 100vw;
+    padding: 20px 25px;
+  }
+  .hireHeader {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  .hourlyMainCard{
+    width: 100%;
+  }
+  .noticeCard {
+    width: 100%;
+    font-size: 15px;
+  }
+  .eliteHeader {
+    font-size: 28px;
+    text-align: center;
+  }
+  .eliteSubHeader {
+    font-size: 15px;
+    text-align: center;
+  }
+  .hIInfoHeader {
+    font-size: 22px;
+    text-align: center;
+  }
+  .hIInfoSubHeader{
+    font-size: 15px;
+    text-align: center;
+  }
+  .hIListText {
+    font-size: 15px;
+  }
+  .hourlyTalkBtn {
+    margin: 20px 0px 0px 0px;
+  }
+  .hourlyMainCard{
+    margin-left: 0px;
+  }
+  .fa-plus{
+    color: #0085ff;
+    margin: 3.5px 7.5px 0px 0px;
+    font-size: 13px;
+  }
+  .packageContainer {
+    flex-direction: column;
+  }
+  .packageMainContainer {
+    width: 100vw;
+    height: 2300px;
+    padding: 15px 5px;
+  }
+  .packageMainCard {
+    width: 100%;
+  }
+  .predefinedButtons{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .cardAndInfoContainer{
+    flex-direction: column;
+  }
+  .hourlyButtonsContainer{
+    justify-content: space-around;
+    margin-bottom: 40px;
+  }
+  .hourlyMainContainer{
+    width: 90%;
+    padding: 20px 40px;
+  }
+  .hireHeader {
+    font-size: 20px;
+    text-align: center;
+    padding: 20px;
+  }
+  .hourlyMainCard{
+    width: 400px;
+  }
+  .noticeCard {
+    width: 280px;
+    font-size: 18px;
+  }
+  .eliteHeader {
+    font-size: 28px;
+  }
+  .eliteSubHeader {
+    font-size: 15px;
+  }
+  .hIInfoHeader {
+    font-size: 25px;
+  }
+  .hIInfoSubHeader{
+    font-size: 15px;
+  }
+  .hIListText {
+    font-size: 15px;
+  }
+  .hourlyTalkBtn {
+    margin: 20px 0px 0px 0px;
+  }
+  .hourlyMainCard{
+    margin-left: 0px;
+  }
+  .fa-plus{
+    color: #0085ff;
+    margin: 3px 7.5px 0px 0px;
+    font-size: 13px;
+  }
+  .packageContainer {
+    flex-direction: column;
+  }
+  .packageMainContainer {
+    width: 85vw;
+    height: 2250px;
+    padding: 15px 45px;
+  }
+  .packageMainCard {
+    width: 100%;
+  }
+  .predefinedButtons{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .hourlyMainContainer{
+    width: 90%;
+    padding: 20px;
+  }
+  .hireHeader {
+    font-size: 25px;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  .hourlyMainCard{
+    width: 400px;
+  }
+  .noticeCard {
+    width: 280px;
+    font-size: 18px;
+  }
+  .eliteHeader {
+    font-size: 28px;
+  }
+  .eliteSubHeader {
+    font-size: 15px;
+  }
+  .hIInfoHeader {
+    font-size: 25px;
+  }
+  .hIInfoSubHeader{
+    font-size: 15px;
+  }
+  .hIListText {
+    font-size: 15px;
+  }
+  .hourlyTalkBtn {
+    margin: 20px 0px 0px 0px;
+  }
+  .hourlyMainCard{
+    margin-left: 20px;
+  }
+  .fa-plus{
+    color: #0085ff;
+    margin: 2px 7.5px 0px 0px;
+    font-size: 15px;
+  }
+  .packageContainer {
+    flex-direction: column;
+  }
+  .packageMainContainer {
+    width: 75vw;
+    height: 2250px;
+    padding: 15px 45px;
+  }
+  .packageMainCard {
+    width: 100%;
+  }
+  .predefinedButtons{
+    flex-direction: column;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1300px) {
+  .hourlyMainContainer{
+    width: 90%;
+    padding: 20px 40px;
+  }
+  .hireHeader {
+    font-size: 35px;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  .hourlyMainCard{
+    width: 400px;
+  }
+  .noticeCard {
+    width: 280px;
+    font-size: 18px;
+  }
+  .eliteHeader {
+    font-size: 28px;
+  }
+  .eliteSubHeader {
+    font-size: 15px;
+  }
+  .hIInfoHeader {
+    font-size: 30px;
+  }
+  .hIInfoSubHeader{
+    font-size: 18px;
+  }
+  .hIListText {
+    font-size: 18px;
+  }
+  .hourlyTalkBtn {
+    margin: 20px 20px 0px 0px;
+  }
+  .hourlyMainCard{
+    margin-left: 20px;
+  }
+  .fa-plus{
+    color: #0085ff;
+    margin: 4px 7.5px 0px 0px;
+    font-size: 15px;
+  }
+  .packageMainContainer {
+    width: 95vw;
+    padding: 15px 45px;
+  }
+  .packageMainCard {
+    width: 31.5%;
+  }
+  #notice-card {
+    width: 235px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .hourlyMainContainer{
+    width: 1200px;
+    padding: 20px 40px;
+  }
+  .hireHeader {
+    font-size: 40px;
+    padding: 20px 40px;
+    text-align: center;
+  }
+  .hourlyMainCard{
+    width: 400px;
+  }
+  .noticeCard {
+    width: 280px;
+    font-size: 18px;
+  }
+  .eliteHeader {
+    font-size: 28px;
+  }
+  .eliteSubHeader {
+    font-size: 15px;
+  }
+  .hIInfoHeader {
+    font-size: 30px;
+  }
+  .hIInfoSubHeader{
+    font-size: 18px;
+  }
+  .hIListText {
+    font-size: 18px;
+  }
+  .hourlyTalkBtn {
+    margin: 20px 20px 0px 0px;
+  }
+  .hourlyMainCard{
+    margin-left: 20px;
+  }
+  .fa-plus{
+    color: #0085ff;
+    margin: 4px 7.5px 0px 0px;
+    font-size: 15px;
+  }
+  .packageMainContainer {
+    width: 1400px;
+    padding: 15px 45px;
+  }
+  .packageMainCard {
+    width: 400px;
+  }
+}
+
+.packageMainContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 750px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 80px auto;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.packageMainCard {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 20px 35px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: white;
+}
+
+.hourlyMainContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 750px;
+  background-color: white;
+  border-radius: 50px;
+  margin: 80px auto;
+  box-sizing: border-box;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.hireHeader {
+  border-radius: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  background-color: white;
+  box-sizing: border-box;
+  margin: -60px 0px 10px 0px;
+  box-shadow: rgba(50, 50, 93, 0.2) 0px 30px 100px -20px, rgba(0, 0, 0, 0.2) 0px 15px 60px -30px;
+}
+
+.packageContainer {
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cardAndInfoContainer{
+  width: 100%;
+  height: 100%;
+  margin: 20px 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.hourlyMainCard{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  height: 100%;
+  border-radius: 50px;
+  box-sizing: border-box;
+  padding: 20px 35px;
+  box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+  background-color: white;
+}
+
+.noticeCard {
+  flex-shrink: 0;
+  height: 50px;
+  border-radius: 40px;
+  background-color: rgba(79, 255, 85, 1);
+  margin-top: 7.5px;
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 1.5px;
+  cursor: default;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 3px 60px -12px, rgba(0, 0, 0, 0.3) 0px 1px 36px -18px;
+}
+
+.eliteHeader {
+  width: 100%;
+  font-family: "Lato", sans-serif;
+  font-weight: 900;
+  margin: 30px 0px 10px 0px;
+}
+
+.eliteSubHeader {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  opacity: 0.35;
+}
+
+.elitePrice{
+  font-family: "Lato", sans-serif;
+  font-size: 35px;
+  margin: 20px 0px;
+  color: #c2c2c2;
+}
+
+.cardDivider {
+  width: 90%;
+  height: 5px;
+  background-color: #0085ff;
+  border-radius: 5px;
+  box-shadow: rgba(17, 17, 26, 0.25) 0px 0px 5px;
+  flex-shrink: 0;
+}
+
+.cardListContainer {
+  min-height: 290px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-sizing: border-box;
+  margin: 27.5px 0px 20px 0px;
+}
+
+.cardListPerContainer {
+  display: flex;
+}
+
+.cardListText{
+  font-family: "Lato", sans-serif;
+  font-size: 17px;
+}
+
+.fa-check {
+  color: #09ff00;
+  margin-right: 7.5px;
+  margin-top: 3px;
+}
+
+.hIInfoHeader {
+  font-family: "Lato", sans-serif;
+  color: #0085ff;
+}
+
+.hIInfoSubHeader{
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: #8f8d8d;
+  margin: 5px 0px 30px 0px;
+  opacity: 0.7;
+}
+
+.hIListPerContainer{
+  display: flex;
+}
+
+.hIListText {
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.hIListContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+}
+
+.hourlyTalkBtn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0085ff;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  border-radius: 45px;
+  padding-bottom: 0.5px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  transition: all 0.25s ease-in;
+}
+
+.hourlyTalkBtn:hover {
+  transform: translateY(-4px);
+  transition: all 0.25s ease-in;
+}
+
+.boltHourlyMod {
+  font-size: 16px;
+  margin: 2px 0px 0px 5px;
+}
+
+.packageMod{
+  margin: 0px 0px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.15);
+  transition: all 0.3s cubic-bezier(.25,.8,.25,1);
+}
+
+.packageMod:hover {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+
+.fa-star {
+  margin: 2px 5px 0px 0px;
+}
+
+.fa-undo-alt{
+  color: #0085ff;
+  margin: 3.5px 7.75px 0px 0px;
+}
+
+.fa-trophy{
+  margin: 2px 5px 0px 0px;
+}
+
+.fa-award {
+  font-size: 15px;
+}
+
+.asteriskNotice{
+  font-family: "Lato", sans-serif;
+  font-size: 14px;
+  opacity: 0.7;
+  margin: 7.5px 0px 5px 0px;
+  text-align: center;
+}
+
+.predefinedButtons{
+  display: flex;
+  align-items: center;
+  width: 500px;
+  margin-bottom: 15px;
+  justify-content: space-between;
+}
+
+.faqBtn {
+  width: 250px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2.5px solid #0085ff;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  text-decoration: none;
+  color: #0085ff;
+  margin: 20px 0px 0px 0px;
+  border-radius: 45px;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+  transition: all 0.25s ease-in;
+}
+
+.faqBtn:hover {
+  transform: translateY(-3.5px);
+  transition: all 0.25s ease-in;
+}
+
+.fa-question-circle{
+  font-size: 18px;
+  margin: 0px 0px 0px 5px;
+}
+
+.hourlyButtonsContainer{
+  display: flex;
+  flex-wrap: wrap;
+}

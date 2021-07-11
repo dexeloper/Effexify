@@ -1,0 +1,313 @@
+@media (max-width: 576px) {
+  .sScInfoPointsContainer {
+    width: 95%;
+  }
+  .sScPerTwoPointsContainer {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+  .secondScContainer {
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  }
+  #sScParaFix1 {
+    margin-bottom: 60px;
+  }
+  #sScParaFix2 {
+    margin-bottom: 60px;
+  }
+  #sScContainerFix {
+    margin-top: 50px;
+  }
+  #sScButtonFix {
+    margin-top: 40px;
+  }
+  .sScHeader{
+    text-align: center;
+    font-size: 42px;
+    margin: 50px 5px 20px 5px;
+  }
+  .sScSubHeader {
+    width: 90%;
+    font-size: 16px;
+    margin-bottom: 50px;
+  }
+  .sScPointSubHeader{
+    width: 85%;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .sScInfoPointsContainer {
+    width: 95%;
+  }
+  .sScPerTwoPointsContainer {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+  .secondScContainer {
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  }
+  #sScParaFix1 {
+    margin-bottom: 60px;
+  }
+  #sScParaFix2 {
+    margin-bottom: 60px;
+  }
+  #sScContainerFix {
+    margin-top: 50px;
+  }
+  #sScButtonFix {
+    margin-top: 40px;
+  }
+  .sScHeader{
+    font-size: 39px;
+    margin: 50px 5px 20px 5px;
+  }
+  .sScSubHeader {
+    width: 90%;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .sScPointSubHeader{
+    width: 400px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 875px) {
+  .sScInfoPointsContainer {
+    width: 95%;
+  }
+  .sScPerTwoPointsContainer {
+    flex-direction: column;
+    margin: 0px 0px;
+  }
+  .secondScContainer {
+    box-sizing: border-box;
+    padding-bottom: 50px;
+  }
+  #sScParaFix1 {
+    margin-bottom: 60px;
+  }
+  #sScParaFix2 {
+    margin-bottom: 60px;
+  }
+  #sScContainerFix {
+    margin-top: 50px;
+  }
+  #sScButtonFix {
+    margin-top: 50px;
+  }
+  .sScHeader{
+    font-size: 52px;
+    margin: 50px 5px 20px 5px;
+  }
+  .sScSubHeader {
+    width: 700px;
+    font-size: 18px;
+    margin-bottom: 50px;
+  }
+  .sScPointSubHeader{
+    width: 400px;
+  }
+}
+
+@media (min-width: 875px) and (max-width: 991px) {
+  .sScInfoPointsContainer {
+    width: 95%;
+  }
+  .sScPerTwoPointsContainer {
+    margin: 40px 0px;
+  }
+  .sScHeader{
+    font-size: 52px;
+    margin: 50px 5px 20px 5px;
+  }
+  .sScSubHeader {
+    width: 700px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .sScPointSubHeader{
+    width: 400px;
+  }
+}
+
+@media (min-width: 991px) {
+  .sScInfoPointsContainer {
+    width: 900px;
+  }
+  .sScPerTwoPointsContainer {
+    margin: 40px 0px;
+  }
+  .sScHeader{
+    font-size: 52px;
+    margin: 50px 5px 20px 5px;
+  }
+  .sScSubHeader {
+    width: 700px;
+    font-size: 18px;
+    margin-bottom: 25px;
+  }
+  .sScPointSubHeader{
+    width: 400px;
+  }
+}
+
+
+.secondScContainer {
+  width: 100%;
+  min-height: 1200px;
+  background-color: #272525;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.sScHeader{
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.sScSubHeader {
+  font-family: "Source Sans Pro", sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.sScInfoPointsContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.sScPerTwoPointsContainer{
+  display: flex;
+  justify-content: space-between;
+}
+
+.sScPoint{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.sScIlstContainer {
+  border: 10px solid #1a1a1a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  background-color: #ffffff;
+  box-sizing: border-box;
+  box-shadow: 0 7px 12.5px rgba(0,0,0,1), 0 7px 15px rgba(0,0,0,1), inset 0px 0px 5px 0px rgba(50, 50, 50, 0.75);
+  transition: all 0.5s cubic-bezier(.25,.8,.25,1);
+}
+
+.sScPointHeader {
+  font-family: "Lato", sans-serif;
+  font-size: 22px;
+  color: white;
+  margin-top: 40px;
+}
+
+.sScPointSubHeader{
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 10px 0px;
+}
+
+.neonBook {
+  display: block;
+  margin: auto;
+  padding: 10px 30px 11px 31px;
+  font-family: "Lato", sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  text-shadow:
+    -2px 4px 4px #091243,
+    0 0 10px #00D0FF,
+    inset 1px 1px 1px white;
+  color: #1cd5ff;
+  border: 2.5px solid;
+  border-radius: 50px;
+  background-color: transparent;
+  box-shadow:
+    0 1px 2px rgba(0,0,0, 0.6),
+    2px 1px 4px rgba(0,0,0, 0.3),
+    2px 4px 3px rgba(3,0,128, 0.3),
+    0 0 7px 2px rgba(0,208,255, 0.6);
+  animation: flickering 5s infinite;
+  transition: all 0.25s ease-in;
+}
+
+.neonBook:hover {
+  background-color: #0085ff;
+  color: white;
+  transition: all 0.25s ease-in;
+}
+
+@keyframes flickering {
+  0% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  2% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  4% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  8% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  28% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  30% {
+    border-color: transparent;
+    opacity: 0.2;
+  }
+
+  36% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+
+  100% {
+    border-color: #1FFFFF;
+    opacity: 1;
+  }
+}
+
+
+
+.testCircle1{
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  background-color: rgba(0, 133, 255, 1);
+  position: absolute;
+  z-index: -2;
+  margin-top: -100px;
+  float: right;
+}
+
+.testCircleContainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row-reverse;
+}

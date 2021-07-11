@@ -1,0 +1,261 @@
+@media (max-width: 576px) {
+  #navBoltHide {
+    display: none;
+  }
+  #navHamBtn:hover {
+    transform: translateY(0px);
+  }
+  #nav-right-links-container {
+    display: none;
+  }
+  #navBarButtonText {
+    display: none;
+  }
+  .navTalkBtn{
+    width: 40px;
+    height: 40px;
+  }
+  .navIconFix{
+    font-size: 15px;
+    margin-top: 2px;
+  }
+  .navInContainer {
+    width: 85%;
+  }
+}
+
+@media (min-width: 576.5px) and (max-width: 760px) {
+  #navHamBtn{
+    display: none;
+  }
+  .forNavHiding {
+    display: none;
+  }
+  #nav-right-links-container {
+    width: 100px;
+  }
+  .navTalkBtn{
+    width: 125px;
+    height: 40px;
+  }
+  .navIconFix{
+    font-size: 14px;
+    margin: 1px 0px 0px 5.5px;
+  }
+  .navInContainer {
+    width: 85%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1400px) {
+  #navHamBtn{
+    display: none;
+  }
+  .navTalkBtn{
+    width: 125px;
+    height: 40px;
+  }
+  .navIconFix{
+    font-size: 14px;
+    margin: 1px 0px 0px 5.5px;
+  }
+  .navInContainer {
+    width: 90%;
+  }
+}
+
+@media (min-width: 1400px) {
+  #navHamBtn{
+    display: none;
+  }
+  .navTalkBtn{
+    width: 125px;
+    height: 40px;
+  }
+  .navIconFix{
+    font-size: 14px;
+    margin: 1px 0px 0px 5.5px;
+  }
+  .navInContainer {
+    width: 1150px;
+  }
+}
+
+.navHamDropContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  width: 250px;
+  height: 200px;
+  margin-top: 267.5px;
+  box-sizing: border-box;
+  padding: 15px 15px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: rgba(255, 255, 255, 0.2) 0px 1px 10px 2.5px inset, rgba(50, 50, 93, 0.35) 0px 50px 100px 10px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+}
+
+.navHamTriangle {
+  position: absolute;
+  width: 15px;
+  height: 15px;
+  transform: translate(207px, -21px) rotate(45deg);
+  background-color: white;
+}
+
+.navHamLinksContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  text-decoration: none;
+  color: black;
+  transition: all 0.35s ease-in;
+}
+
+.navHamLinksContainer:hover {
+  color: #0085ff;
+  transition: all 0.35s ease-in;
+}
+
+.navIconContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  border-radius: 35px;
+  border: 3px solid #0085ff;
+  color: #0085ff;
+  font-size: 18px;
+  margin-right: 15px;
+}
+
+.navTalkBtnContainer{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+}
+
+.navHamDivider {
+  float: right;
+  width: 75%;
+  height: 5px;
+  background-color: #0085ff;
+  border-radius: 5px;
+  margin-top: 2px;
+  margin-bottom: 5px;
+  box-shadow: rgb(0, 0, 0, 0.5) 0px 0px 3px 0px;
+}
+
+.hamNavTalkButton {
+  text-decoration: none;
+  width: 130px;
+  height: 40px;
+  border-radius: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  background-color: #0085ff;
+  color: white;
+  margin-top: 10px;
+  box-shadow: rgb(38, 57, 77, 0.5) 0px 10px 30px -10px;
+}
+
+.navPlaneFix{
+  margin: 2px 0px 0px 5px;
+  font-size: 14px;
+}
+
+.navTransparent{
+  overflow: visible;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100px;
+  box-sizing: border-box;
+}
+
+.navInContainer {
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.navRightContainer{
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  height: 90px;
+  box-sizing: border-box;
+  flex-direction: row-reverse;
+}
+
+.brandContainer{
+  overflow: visible;
+  display: flex;
+  align-items: center;
+  font-size: 25px;
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  margin-top: 5px;
+  color: white;
+}
+
+.navTalkBtn{
+  box-sizing: border-box;
+  display: flex;
+  flex-shrink: 0;
+  margin-left: 10px;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  font-family: "Lato", sans-serif;
+  font-size: 16.5px;
+  background-color: white;
+  color: #0085ff;
+  border-radius: 40px;
+  box-shadow: rgba(0, 0, 0, 0.15) 0px 10px 50px;
+  transition: all 0.25s ease-in-out;
+}
+
+.navTalkBtn:hover {
+  transform: translateY(-3px);
+  transition: all 0.2s ease-in;
+}
+
+.navRightLinksConatiner{
+  display: flex;
+  align-items: center;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  width: 225px;
+  margin-right: 20px;
+  box-sizing: border-box;
+}
+
+.navLinks {
+  font-family: "Lato", sans-serif;
+  font-size: 15px;
+  color: white;
+  text-decoration: none;
+}
+
+.navLinks:hover {
+  transition: all 0.25s ease-in-out;
+}
+
+.navOurWorkMod{
+  font-weight: bold;
+  text-decoration: underline;
+  text-decoration-thickness: 2.2px;
+  text-underline-offset: 1.5px;
+}

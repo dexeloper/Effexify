@@ -1,0 +1,147 @@
+.sky {
+  width:100%;
+  background: #4B79A1;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #05458e, #0e2a48);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #05458e, #0e2a48); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: -olinear-gradient(to top, #05458e, #0e2a48);
+  min-height: 425px;
+}
+
+.stars {
+  position: relative;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+  width:100%;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url(../backgrounds/stars.png);
+  background-repeat: repeat;
+  background-position: top center;
+  z-index: 0;
+}
+
+@media (max-width: 576px) {
+  .finalScContainer{
+    width: 90%;
+    padding: 25px 10px;
+  }
+  .conclusionPoints {
+    flex-direction: column;
+    margin: 0px auto;
+  }
+  #fScInputMod {
+    width: 90%;
+  }
+  .finalScHeader {
+    text-align: center;
+    font-size: 30px;
+  }
+}
+
+@media (min-width: 576.5px) and (max-width: 760px) {
+  .finalScContainer{
+    width: 90%;
+    padding: 25px 30px;
+  }
+  .conclusionPoints {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .finalScHeader {
+    text-align: center;
+    font-size: 35px;
+  }
+  #fScInputMod {
+    width: 70%;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .finalScContainer{
+    width: 90%;
+    padding: 25px 30px;
+  }
+  .conclusionPoints {
+    width: 95%;
+    flex-wrap: wrap;
+  }
+  .finalScHeader {
+    text-align: center;
+    font-size: 35px;
+  }
+  #fScInputMod {
+    width: 60%;
+  }
+}
+
+@media (min-width: 991px) and (max-width: 1100px) {
+  .finalScContainer{
+    width: 90%;
+    padding: 25px 30px;
+  }
+  .conclusionPoints {
+    width: 80%;
+  }
+  .finalScHeader {
+    text-align: center;
+    font-size: 35px;
+  }
+  #fScInputMod {
+    width: 60%;
+  }
+}
+
+
+@media (min-width: 1100px) {
+  .finalScContainer{
+    width: 1000px;
+    padding: 25px 30px;
+  }
+  .conclusionPoints {
+    width: 80%;
+  }
+  .finalScHeader {
+    text-align: center;
+    font-size: 35px;
+  }
+  #fScInputMod {
+    width: 60%;
+  }
+}
+
+.finalScContainer{
+  margin: 50px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+  background-color: rgba(255, 255, 255, 0.05);
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 45px, rgba(0, 0, 0, 0.22) 0px 15px 20px;
+}
+
+.finalScHeader {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.finalScSubHeader {
+  width: 80%;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  color: white;
+  margin: 25px 0px 15px 0px;
+  text-align: center;
+}
+
+.conclusionPoints {
+  display: flex;
+  justify-content: space-around;
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  margin-top: 40px;
+  color: white;
+}

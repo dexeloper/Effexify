@@ -1,0 +1,249 @@
+@media (max-width: 576px) {
+  .footerNavLinksContainer {
+    box-sizing: border-box;
+    width: 300px;
+    justify-content: space-between;
+    margin: 20px 15px 0px 15px;
+  }
+  .footerPerHeadingContainer {
+    width: 120px;
+    text-align: center;
+  }
+  .fsKickOff{
+    width: 350px;
+    font-size: 29px;
+  }
+  .fsIconFix{
+    margin: 0px 0px -5px 2px;
+    font-size: 24px;
+  }
+  .footerLinkHead {
+    font-size: 18px;
+  }
+  .footerLink {
+    font-size: 12px;
+  }
+  #footerModEnding {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .footerBrandContainer {
+      width: 90%;
+  }
+  .footerNavLinksContainer {
+    width: 440px;
+    justify-content: space-between;
+  }
+  .footerPerHeadingContainer {
+    width: 150px;
+  }
+  .fsKickOff{
+    font-size: 42px;
+  }
+  .fsIconFix{
+    margin: 0px 0px -5px 5px;
+    font-size: 33px;
+  }
+  .footerLinkHead {
+    font-size: 20px;
+  }
+  .footerLink {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 991px) {
+  .footerBrandContainer {
+      width: 90%;
+  }
+  .footerNavLinksContainer {
+    width: 90%;
+    justify-content: space-around;
+  }
+  .fsKickOff{
+    font-size: 32px;
+  }
+  .fsIconFix{
+    margin: 0px 0px -5px 5px;
+    font-size: 26px;
+  }
+  .footerLinkHead {
+    font-size: 20px;
+  }
+  .footerLink {
+    font-size: 15px;
+  }
+}
+
+
+@media (min-width: 991px) and (max-width: 1100px) {
+  .footerBrandContainer {
+      width: 95%;
+  }
+  .footerNavLinksContainer {
+    width: 950px;
+    justify-content: space-around;
+  }
+  .fsKickOff{
+    font-size: 40px;
+  }
+  .fsIconFix{
+    margin: 0px 0px -5px 5px;
+    font-size: 34px;
+  }
+  .footerLinkHead {
+    font-size: 20px;
+  }
+  .footerLink {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1100px) {
+  .footerBrandContainer {
+      width: 1050px;
+  }
+  .footerNavLinksContainer {
+    width: 950px;
+    justify-content: space-around;
+  }
+  .fsKickOff{
+    font-size: 40px;
+  }
+  .fsIconFix{
+    margin: 0px 0px -5px 5px;
+    font-size: 34px;
+  }
+  .footerLinkHead {
+    font-size: 20px;
+  }
+  .footerLink {
+    font-size: 15px;
+  }
+}
+
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #121212;
+  min-height: 370px;
+  padding: 30px 10px;
+}
+
+.fsKickOff{
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  color: white;
+  margin: 2.5px 0px 20px 0px;
+  text-align: center;
+  text-decoration: underline;
+  transition: all 0.2s ease-in;
+}
+
+.fsKickOff:hover {
+  color: #0085ff;
+  transition: all 0.2s ease-in;
+}
+
+.footerBrandContainer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin: 20px 0px;
+}
+
+.footerLogoContainer {
+  width: 60px;
+  height: 60px;
+  border-radius: 15px;
+  background-color: white;
+  padding-bottom: 3.5px;
+  padding-left: 1px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  box-shadow: 0 0 30px rgba(0,0,0,0.3) inset;
+}
+
+.logoHeadSubHead {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.footerBrandName {
+  color: white;
+  font-size: 32px;
+  font-family: "Lato", sans-serif;
+  margin: 0px 0px 0px 10px;
+}
+
+.footerSlogan {
+  color: white;
+  font-size: 13.5px;
+  font-family: "Lato", sans-serif;
+  margin: -5px 0px 0px 0px;
+  opacity: 0.5;
+}
+
+.footerNavLinksContainer {
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.footerPerHeadingContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerLinkHead {
+  color: white;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+
+.footerLink {
+  color: white;
+  font-family: "Lato", sans-serif;
+  text-decoration: none;
+  margin: 5px 0px;
+  opacity: 0.5;
+  transition: all 0.2s ease-in;
+}
+
+.footerLink:hover {
+  opacity: 1;
+  transition: all 0.2s ease-in;
+}
+
+.footerCopyrightNotice {
+  color: white;
+  margin: 10px 0px 0px 0px;
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 16px;
+  opacity: 0.5;
+}
+
+.fx-logo-footer {
+  font-family: "Lato", sans-serif;
+  font-weight: 700;
+  font-size: 32px;
+  color: #0085ff;
+  font-style: italic;
+}
+
+
+.portFx{
+  font-family: "Lato", sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  font-style: italic;
+  color: #0085ff;
+}

@@ -1,0 +1,356 @@
+@media(max-width: 360px) {
+  .ourWorkContainer{
+    width: 90%;
+  }
+  .portScroll {
+    font-size: 14px;
+  }
+  .ourWorkContainer{
+    flex-direction: column;
+  }
+  .owLeftHeading {
+    text-align: center;
+  }
+  .owLeftHeading {
+    font-size: 34px;
+  }
+  .workSwitchContainer{
+    margin-bottom: 0px;
+    width: 300px;
+  }
+  .owRightContainer {
+    align-items: center;
+  }
+  .focusedDetails{
+    text-align: center;
+  }
+  .focusedContainer {
+    width: 329px;
+    height: 185.08px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 14px;
+  }
+  .clickForMore {
+    width: 150px;
+  }
+}
+
+@media (min-width: 360px) and (max-width: 576px) {
+  .ourWorkContainer{
+    width: 90%;
+  }
+  .portScroll {
+    font-size: 14px;
+  }
+  .ourWorkContainer{
+    flex-direction: column;
+  }
+  .owLeftHeading {
+    text-align: center;
+  }
+  .owLeftHeading {
+    font-size: 34px;
+  }
+  .workSwitchContainer{
+    margin-bottom: 0px;
+    width: 300px;
+  }
+  .owRightContainer {
+    align-items: center;
+  }
+  .focusedDetails{
+    text-align: center;
+  }
+  .focusedContainer {
+    width: 329px;
+    height: 185.08px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 14px;
+  }
+  .clickForMore {
+    width: 150px;
+  }
+}
+
+@media (min-width: 576px) and (max-width: 760px) {
+  .ourWorkContainer{
+    width: 90%;
+  }
+  .portScroll {
+    font-size: 15px;
+  }
+  .ourWorkContainer{
+    flex-direction: column;
+  }
+  .owLeftHeading {
+    text-align: center;
+  }
+  .owLeftHeading {
+    margin-bottom: 75px;
+    font-size: 55px;
+  }
+  .workSwitchContainer{
+    margin-bottom: 50px;
+    width: 450px;
+  }
+  .owRightContainer {
+    align-items: center;
+  }
+  .focusedDetails{
+    text-align: center;
+  }
+  .focusedContainer {
+    width: 526px;
+    height: 296px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 15px;
+  }
+  .clickForMore {
+    width: 250px;
+  }
+}
+
+@media (min-width: 760px) and (max-width: 1050px) {
+  .ourWorkContainer{
+    width: 90%;
+  }
+  .portScroll {
+    font-size: 15px;
+  }
+  .ourWorkContainer{
+    flex-direction: column;
+  }
+  .owLeftHeading {
+    text-align: center;
+  }
+  .owLeftHeading {
+    margin-bottom: 75px;
+    font-size: 55px;
+  }
+  .workSwitchContainer{
+    margin-bottom: 50px;
+    width: 450px;
+  }
+  .owRightContainer {
+    align-items: center;
+  }
+  .focusedDetails{
+    text-align: center;
+  }
+  .focusedContainer {
+    width: 608px;
+    height: 341px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 15px;
+  }
+  .clickForMore {
+    width: 250px;
+  }
+}
+
+
+@media (min-width: 1050px) and (max-width: 1300px) {
+  .ourWorkContainer{
+    width: 90%;
+  }
+  .portScroll {
+    font-size: 15px;
+  }
+  .owLeftHeading {
+    margin-bottom: 150px;
+    font-size: 55px;
+  }
+  .focusedContainer {
+    width: 608px;
+    height: 341px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 17.5px;
+  }
+  .clickForMore {
+    width: 250px;
+  }
+  .workSwitchContainer{
+    width: 450px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .ourWorkContainer{
+    width: 1150px;
+  }
+  .portScroll {
+    font-size: 18px;
+  }
+  .owLeftHeading {
+    margin-bottom: 150px;
+    font-size: 55px;
+  }
+  .focusedContainer {
+    width: 608px;
+    height: 341px;
+  }
+  .portArrow {
+    margin-left: 2.5px;
+    font-size: 17.5px;
+  }
+  .clickForMore {
+    width: 250px;
+  }
+  .workSwitchContainer{
+    width: 450px;
+  }
+}
+
+
+.workBackgroundContainer{
+  width: 100%;
+  min-height: 675px;
+  background-color: #262262;
+  transition: all 1s ease-in;
+}
+
+.payFCBackground {
+  background-color: #262262;
+  transition: all 1s ease-in;
+}
+
+.archBackground {
+  background-color: #262626;
+  transition: all 1s ease-in;
+}
+
+.flexiBackground {
+  background-color: #0064bf;
+  transition: all 1s ease-in;
+}
+
+.ourWorkContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 500px;
+  margin: 20px auto;
+}
+
+.owLeftHeading {
+  font-family: "Lato", sans-serif;
+  color: white;
+}
+
+.portScroll {
+  background-color: rgba(255, 255, 255, 0.05);
+  padding: 15px 20px;
+  border-radius: 40px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  color: white;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+
+.owRightContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.focusedContainer {
+  overflow: visible;
+  background-color: transparent;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.focusedDetails{
+  margin-top: 25px;
+}
+
+.focusedDetailHeader{
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+.viewProject{
+  font-family: "Lato", sans-serif;
+  color: white;
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 0.3px;
+  text-decoration: none;
+}
+
+.workSwitchContainer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 25px;
+}
+
+.workSwitchButtons {
+  opacity: 0.25;
+  width: 32px;
+  height: 32px;
+  border-radius: 50px;
+  border: 2.5px solid white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Lato", sans-serif;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+
+.focusedAnimationContainer{
+  display: flex;
+  position: relative;
+}
+
+.focusedParentContainerMod1 {
+  position: relative;
+  z-index: 9;
+}
+
+.focusedParentContainerMod2 {
+  position: absolute;
+  z-index: 8;
+  opacity: 0;
+}
+
+.focusedParentContainerMod3 {
+  position: absolute;
+  z-index: 7;
+  opacity: 0;
+}
+
+#pImage1 {
+  background-image: url(../images/PayFC.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pImage2 {
+  background-image: url(../images/ArchScraper.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#pImage3 {
+  background-image: url(../images/Flexicred.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
