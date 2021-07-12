@@ -1,5 +1,6 @@
 $("#imageTopContainer").hide();
 
+
 $("#ambi-banner").click(function() {
   $("#project-title").text("Ambiquil - Therapeutic Courses");
   $("#imageTopContainer").fadeIn();
@@ -21,10 +22,19 @@ $("#flexi-banner").click(function() {
   $("#body").addClass("disableBody");
 });
 
+$("#arch-banner").click(function() {
+  $("#project-title").text("ArchScraper - Construction Agency");
+  $("#imageTopContainer").fadeIn();
+  $('#project-image').attr('src','./images/ArchScraper.jpg');
+  $("#body").addClass("disableBody");
+});
+
+
+
+
 $(".closeProject").click(function() {
   $("#imageTopContainer").fadeOut();
   $("#body").removeClass("disableBody");
-
 });
 
 $(".projectImage").click(function() {

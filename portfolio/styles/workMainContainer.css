@@ -288,6 +288,7 @@
   font-weight: bold;
   letter-spacing: 0.3px;
   text-decoration: none;
+  cursor: pointer;
 }
 
 .workSwitchContainer{
@@ -324,14 +325,12 @@
 
 .focusedParentContainerMod2 {
   position: absolute;
-  z-index: 8;
-  opacity: 0;
+  z-index: 10;
 }
 
 .focusedParentContainerMod3 {
   position: absolute;
-  z-index: 7;
-  opacity: 0;
+  z-index: 11;
 }
 
 #pImage1 {
